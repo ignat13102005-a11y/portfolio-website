@@ -1071,3 +1071,39 @@ footer{
     }
 
 }
+/* ===========================
+   Адаптация для телефонов
+=========================== */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 120px 20px 70px;
+        text-align: center;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+        line-height: 1.15;
+    }
+
+    .hero p {
+        font-size: 18px;
+        line-height: 1.6;
+        margin: 20px auto;
+    }
+
+    .hero-buttons {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+
+    .hero-buttons a {
+        width: 100%;
+        max-width: 320px;
+        text-align: center;
+    }
+
+}
