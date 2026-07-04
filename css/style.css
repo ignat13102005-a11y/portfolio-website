@@ -1155,8 +1155,10 @@ footer{
     /* SERVICES */
 
     .services-grid{
-        grid-template-columns:1fr;
-    }
+    display:grid !important;
+    grid-template-columns:1fr !important;
+    gap:20px !important;
+}
 
     .service-card{
         padding:35px 25px;
